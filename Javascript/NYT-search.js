@@ -10,6 +10,9 @@ var endYear = 0;
 $(".submit").on("click", function() {
     searchTerm = $("#search").val().trim();
 
+    var newURL = queryURL + "&q=" + searchTerm;
+
+
     numberRecords = $("#record").val()
 
 
